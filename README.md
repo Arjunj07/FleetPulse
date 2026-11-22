@@ -36,7 +36,7 @@ Each step has a short note with the goal, key ideas, code and interview question
 
 - [x] Step 1: Project structure and Vehicle types
 - [x] Step 2: Routing and layout
-- [ ] Step 3: Mock data layer
+- [x] Step 3: Mock data layer
 - [ ] Step 4: GitHub Actions (lint and test)
 - [ ] Step 5: Vehicle list
 - [ ] Step 6: Search, filter and sort
