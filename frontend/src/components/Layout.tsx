@@ -9,6 +9,9 @@ export default function Layout() {
           <NavLink to="/vehicles" className="layout_link">
             Vehicles
           </NavLink>
+          <NavLink to="/playground" className="layout_link">
+            Playground
+          </NavLink>
         </nav>
       </header>
       <main className="layout_main">
