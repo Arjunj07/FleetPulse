@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import VehiclesPage from "./pages/VehiclesPage";
 import VehicleDetailPage from "./pages/VehicleDetailPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import PostsPlayground from "./playground/PostsPlayground";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route index element={<Navigate to="/vehicles" replace />} />
         <Route path="vehicles" element={<VehiclesPage />} />
         <Route path="vehicles/:id" element={<VehicleDetailPage />} />
+        <Route path="playground" element={<PostsPlayground />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
